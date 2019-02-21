@@ -1,0 +1,11 @@
+section{
+  min-height: 250px;
+}
+
+.rebel-card {
+  float: left;
+  min-width: 100px;
+  border: 1px red solid;
+  margin: 3px;
+  padding: 3px;
+}
