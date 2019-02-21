@@ -3,9 +3,11 @@ section{
   overflow: auto;
 }
 
+/*find a way to make height wrap the longest card */
 .rebel-card {
   float: left;
   width: 200px;
+  height: 300px;
   border: 1px red solid;
   margin: 3px;
   padding: 3px;
