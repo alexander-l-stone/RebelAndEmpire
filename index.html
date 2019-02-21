@@ -8,14 +8,51 @@
     <link rel="stylesheet" type="text/css" href="css/rebel.css">
   </head>
   <body>
-    <nav>Nav</nav>
+    <nav>
+      <ul>
+        <li id="logout">Logout</li>
+        <li id="login">Login</li>
+        <li id="games-list">Games List</li>
+        <li class="active" id="current-game">Current Game</li>
+      </ul>
+    </nav>
     <main class="rebel">
       <section class="rebel" id="main-screen">Main Screen</section>
       <section class="rebel" id="cards">
-        <div class="rebel-card">Card 1</div>
-        <div class="rebel-card">Card 2</div>
-        <div class="rebel-card">Card 3</div>
-        <div class="rebel-card">Card 4</div>
+        <div class="rebel-card">
+          <p>
+            Hack Communications:<br>
+            Cost: 1<br>
+            Effect: Roll Agent Skill. On success you know the Imperial Sector Action that will happen this turn. On Failure, nothing
+            happens.
+          </p>
+        </div>
+        <div class="rebel-card">
+          <p>
+            Incite Rebellion:<br>
+            Cost: 10<br>
+            Effect: Attempt to incite rebellion on an Imperial Planet. Roll Agents skill at 1 extra difficulty for every 10 units on
+            the planet with Garrison. Levels are Loyal > Content > Conflicted > Disloyal > Rebelling. If a planet goes from
+            Rebelling to Free, you immediately get 1d10 Militia on the planet who immediately fight any Imperial Land Garrison. If
+            you win, the planet is yours, otherwise it stays Rebelling.
+          </p>
+        </div>
+        <div class="rebel-card">
+          <p>
+            Smuggle Goods:<br>
+            Cost: 0<br>
+            Effect: Target an Imperial planet. Roll Agents skill. On success gain Credits equal to its Trade Value. On failure,
+            nothing happens.
+          </p>
+        </div>
+        <div class="rebel-card">
+          <p>
+            Smuggle Goods:<br>
+            Cost: 0<br>
+            Effect: Target an Imperial planet. Roll Agents skill. On success gain Credits equal to its Trade Value. On failure,
+            nothing happens.
+          </p>
+        </div>
       </section>
     </main>
     <main class="login">Login</main>

@@ -1,7 +1,16 @@
+.active {
+  color: red;
+}
+
 .login {
   display: none;
 }
 
 .main {
-  display:none;
+  display: none;
 }
+
+#login {
+  display: none;
+}
+
